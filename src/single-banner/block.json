@@ -1,0 +1,24 @@
+{
+  "apiVersion": 2,
+  "name": "fm/single-banner",
+  "title": "Single Banner",
+  "category": "media",
+  "icon": "format-image",
+  "description": "Responsive banner with desktop/mobile images and optional link.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "mobileImage": {
+      "type": "object"
+    },
+    "desktopImage": {
+      "type": "object"
+    },
+    "bannerUrl": {
+      "type": "string"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css"
+}

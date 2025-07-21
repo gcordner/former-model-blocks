@@ -1,0 +1,22 @@
+# OS / Editor Junk
+.DS_Store
+*.swp
+*.log
+.vscode/
+
+# Node / JS Tooling
+node_modules/
+*.asset.php
+/build/
+/dist/
+
+# Temporary or backup files
+*.old
+*.new
+
+# PHP vendor (optional: if using Composer)
+vendor/
+
+# Custom build output folders (if not needed in repo)
+css/build/*
+js/build/*
